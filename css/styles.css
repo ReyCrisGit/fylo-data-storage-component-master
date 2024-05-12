@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font1);
 }
 body {
     background-image: url('/images/bg-mobile.png');
@@ -56,4 +57,53 @@ body {
     max-width: max-content;
     display: block;
     margin: auto;
+}
+.aside {
+    position: relative;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.paragraph {
+    display: flex;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.text__bold {
+    color: var(--pale-blue);
+    font-weight: 700;
+}
+.texts {
+    display: flex;
+    justify-content: space-between;
+    color: var(--grayish-blue);
+    font-weight: 700;
+}
+.float {
+    position: absolute;
+    background-color: var(--pale-blue);
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    bottom: -45px;
+    left: 45px;
+}
+.float__number {
+    font-size: 3em;
+}
+.float__text {
+    color: var(--grayish-blue);
 }
