@@ -1,31 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <section class="container section">
+        <figure class="container__logo">
+          <img src="images/logo.svg" alt="logo" class="logo" />
+        </figure>
+        <div class="container__icons">
+          <figure class="container_icon">
+            <img src="images/icon-document.svg" alt="icon" class="icono" />
+          </figure>
+          <figure class="container_icon">
+            <img src="images/icon-folder.svg" alt="icon" class="icono" />
+          </figure>
+          <figure class="container_icon">
+            <img src="images/icon-upload.svg" alt="icon" class="icono" />
+          </figure>
+        </div>
+      </section>
+      <aside class="container aside">
+        <form class="form" action="">
+          <p class="paragraph">You’ve used 815 GB of your storage</p>
+          <input
+            type="range"
+            name="range"
+            id="range"
+            min="0"
+            max="1000"
+            step="100"
+          />
+          <div class="texts">
+            <p class="text__min">0 GB</p>
+            <p class="text__max">1000 GB</p>
+          </div>
+        </form>
+        <div class="float">
+          <p class="number">185</p>
+          <p class="text">GB Left</p>
+        </div>
+      </aside>
+    </main>
+  </body>
 </html>
