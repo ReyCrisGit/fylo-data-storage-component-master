@@ -27,7 +27,7 @@ Esta es una solución para [Design preview for the Fylo data storage component c
 
 ### Enlaces
 
-- URL de la solución: [GitHub](https://github.com/ReyCrisGit/)
+- URL de la solución: [GitHub](https://github.com/ReyCrisGit/fylo-data-storage-component-master)
 - URL del sitio en vivo: [GitHub Pages](https://reycrisgit.github.io/fylo-data-storage-component-master/)
 
 ## Mi proceso
