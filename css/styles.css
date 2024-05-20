@@ -134,6 +134,10 @@ body {
     .aside {
         width: 100%;
     }
+    .form {
+        margin-bottom: 0;
+        gap: .3em;
+    }
     .float {
         top: -45px;
         left: 350px;
