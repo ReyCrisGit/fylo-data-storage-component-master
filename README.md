@@ -69,6 +69,6 @@ Dominar FlexBox y CSS Grid. Luego poner en práctica JavaScript para los demás 
 Los videos de [Jordan Alexander](https://www.youtube.com/@AlexCGDesign). Me ayuda mucho con las buenas prácticas.
 
 ## Autor
-
-Sitio web - [Cristian Barrios](https://github.com/ReyCrisGit)
-Frontend Mentor - [Cristian Barrios](https://www.frontendmentor.io/profile/ReyCrisGit)
+Cristian Barrios
+- [GitHub](https://github.com/ReyCrisGit)
+- [FrontendMentor](https://www.frontendmentor.io/profile/ReyCrisGit)
