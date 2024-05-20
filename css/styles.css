@@ -15,7 +15,7 @@
     font-family: var(--font1);
 }
 body {
-    background-image: url('/images/bg-mobile.png');
+    background-image: url('../images/bg-mobile.png');
     background-size: cover;
 }
 .main {
@@ -116,7 +116,7 @@ body {
         display: block;
         width: 100%;
         height: 50vh;
-        background-image: url('/images/bg-desktop.png');
+        background-image: url('../images/bg-desktop.png');
         background-size: cover;
         position: absolute;
         bottom: 0;
